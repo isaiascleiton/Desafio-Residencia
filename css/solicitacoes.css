@@ -1,0 +1,200 @@
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-header {
+    height: 100px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .logo {
+    width: 120px;
+    height: 100px;
+}
+
+.menu {
+    margin-right: 50px;
+}
+
+.menu i {
+    vertical-align: text-bottom;
+    width: 26px;
+    height: 22px;
+}
+
+.menu .action {
+    display: inline-block;
+    color: #5d0772;
+    text-decoration: none;
+    margin: 35px 10px 8px 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.menu .action:hover {
+    color: white;
+    background-color: #CF29EE;
+    text-decoration: underline;
+    box-shadow: 2px 2px 0 1px #ac03ca;
+}
+
+.ac_box {
+    width: 1154px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.ac_box_top {
+    display: flex;
+    line-height: 0;
+    border: 2px solid #8B008B;
+    border-bottom: none;
+    margin-left: 2px;
+    height: 7px;
+    width: 50%;
+    max-width: 500x;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ac_box_cont {
+    border: 4px solid #8B008B;
+    height: 9em;
+    width: 900px;
+    padding: 5px 1em;
+    border-radius: 15px;
+    text-align: right;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    text-shadow: 0px 0px 1px 0px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.icons {
+    color: #8B008B;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+#userimage {
+    height: 133px;
+    width: 133px;
+    margin-right: 10px;
+    border-radius: 50%;
+    float: left;
+}
+
+.btn_rec {
+    text-align: center;
+    border-radius: 1em;
+    background-color: #808080;
+    cursor: pointer;
+    color: white;
+}
+
+.btn_rec:hover {
+    color: white;
+    background-color: #CF29EE;
+    text-decoration: underline;
+    box-shadow: 2px 2px 0 1px #ac03ca;
+}
+
+.btn_act {
+    float: center;
+    border-radius: 1em;
+    background-color: #8B008B;
+    cursor: pointer;
+    color: white;
+}
+
+.btn_act:hover {
+    color: white;
+    background-color: #CF29EE;
+    text-decoration: underline;
+    box-shadow: 2px 2px 0 1px #ac03ca;
+}
+
+.linha {
+    background-color: #8B008B;
+}
+
+.name_afilhada {
+    text-align: left;
+    font-size: 25px;
+    color: #5d0772;
+    margin-top: 17px;
+}
+
+.sent-msg {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(139, 0, 139, 0.700);
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.sent-msg p {
+    margin: 40px 10px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.caixa {
+    color: #5d0772;
+    margin-bottom: 20px;
+}
+
+.checked {
+    color: #ffd700;
+    float: left;
+}
+
+.meio {
+    text-align: center;
+    font-size: small;
+}
+
+textarea {
+    position: absolute;
+    margin-right: -50%;
+    left: 50%;
+    display: block;
+    width: 350px;
+    height: 80px;
+    border: 0px;
+    background-color: #ffc7fe;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+}
